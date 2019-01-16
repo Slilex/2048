@@ -3,15 +3,15 @@ import javax.swing.*;
 import java.awt.*;
 
 public class View extends JPanel {
-    private static final Color BG_COLOR = new Color(0xbbada0);
-    private static final String FONT_NAME = "Arial";
-    private static final int TILE_SIZE = 96;
-    private static final int TILE_MARGIN = 12;
+    private static final    Color BG_COLOR      = new Color(0xbbada0);
+    private static final    String FONT_NAME    = "Arial";
+    private static final    int TILE_SIZE       = 96;
+    private static final    int TILE_MARGIN     = 12;
 
     private Controller controller;
 
-    boolean isGameWon = false;
-    boolean isGameLost = false;
+    boolean isGameWon   = false;
+    boolean isGameLost  = false;
 
     public View(Controller controller) {
         setFocusable(true);
